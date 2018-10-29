@@ -5,18 +5,17 @@ public class Boletin_6_1 {
 
     public static void main(String[] args) {
         boolean salir = false;
-        do{
+        while(salir != true){
             try{
                 int n = Integer.parseInt(JOptionPane.showInputDialog("Introduce un número :"));
                 if(n >= 0){
-                    JOptionPane.showMessageDialog(null, "É positivo");
-                    salir = true;
+                    JOptionPane.showMessageDialog(null, "É positivo.");
                 }
-                
+                salir = true;
             }catch(NumberFormatException e){
-                System.out.print("Formato incorrecto.");
+                JOptionPane.showMessageDialog(null, "Formato incorrecto.");
             }
-        }while(salir = false);
+        }
     }
     
 }
