@@ -9,8 +9,8 @@ public class Boletin_6_2 {
         short num2 = Short.parseShort(JOptionPane.showInputDialog("Dame número 2: "));
         if(num1 > num2 || num1 == num2){
             JOptionPane.showMessageDialog(null,"A resta de ambos números é " + (num1 - num2));
-           
         }
+        JOptionPane.showMessageDialog(null,"A suma é " + (num1 + num2));
     }
     
 }
