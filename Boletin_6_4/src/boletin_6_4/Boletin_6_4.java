@@ -13,7 +13,6 @@ public class Boletin_6_4 {
             System.out.println(persoa2.getNome() + " pesa más que " + persoa1.getNome());
             System.out.println("La diferencia de peso es de: " + (persoa2.getPeso() - persoa1.getPeso()) + " kilos.");
         }
-        
     }
     
 }
