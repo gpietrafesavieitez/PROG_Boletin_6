@@ -2,7 +2,7 @@ package boletin_6_1;
 import javax.swing.JOptionPane;
 
 public class Boletin_6_1 {
-
+    
     public static void main(String[] args) {
         boolean salir = false;
         while(salir != true){
