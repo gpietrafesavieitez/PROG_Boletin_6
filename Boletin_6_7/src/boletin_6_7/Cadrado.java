@@ -19,6 +19,10 @@ public class Cadrado {
         this.lado = lado;
     }
     
+    public void setLado(double lado){
+        this.lado = lado;
+    }
+    
     public double calcularArea(){
         return lado*lado;
     }

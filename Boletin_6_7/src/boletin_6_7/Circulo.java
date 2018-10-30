@@ -19,6 +19,10 @@ public class Circulo {
         this.radio = radio;
     }
     
+    public void setRadio(double radio){
+        this.radio = radio;
+    }
+    
     public double calcularArea(){
         return Math.PI * Math.pow(radio, 2);
     }
