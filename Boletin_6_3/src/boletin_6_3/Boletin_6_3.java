@@ -10,14 +10,12 @@ public class Boletin_6_3 {
             System.out.print("Dame un número: ");
             try{
                 int n = Integer.parseInt(leer.nextLine());
-                if(n >= 0){
-                    if(n == 0){
-                        System.out.println("0");
-                    }else{
-                        System.out.println("+");
-                    }
+                if(n > 0){
+                    System.out.println("+");
+                }else if(n == 0){
+                    System.out.println("0");                    
                 }else{
-                    System.out.println("-");
+                    System.out.println("-");   
                 }
                 salir = true;
             }catch(NumberFormatException e){
