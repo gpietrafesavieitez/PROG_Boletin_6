@@ -7,12 +7,12 @@ public class Boletin_6_4 {
         Persoa persoa2 = new Persoa("Ana",63.5f);
         
         if(persoa1.getPeso() > persoa2.getPeso()){
-            System.out.println(persoa1.getNome() + " pesa más que " + persoa2.getNome());
-            System.out.println("La diferencia de peso es de: " + (persoa1.getPeso() - persoa2.getPeso()) + " kilos.");
+            System.out.println(persoa1.getNome() + " pesa más que " + persoa2.getNome() + ".");
         }else{
-            System.out.println(persoa2.getNome() + " pesa más que " + persoa1.getNome());
-            System.out.println("La diferencia de peso es de: " + (persoa2.getPeso() - persoa1.getPeso()) + " kilos.");
+            System.out.println(persoa2.getNome() + " pesa más que " + persoa1.getNome() + ".");
         }
+        
+        System.out.println("La diferencia de peso es de: " + Math.abs(persoa1.getPeso() - persoa2.getPeso()) + " kilos.");
     }
     
 }
