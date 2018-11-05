@@ -8,18 +8,14 @@ public class Boletin_6_6 {
         System.out.print("Introduce o numero de ventas: ");
         try{
             int ventas = Integer.parseInt(leer.nextLine());
-            if(ventas > 0){
-                if(ventas <= 100){
-                    System.out.println("Baixo.");
-                }else if(ventas > 100 && ventas <= 500){
-                    System.out.println("Medio.");
-                }else if(ventas > 500 && ventas <= 1000){
-                    System.out.println("Alto.");
-                }else if(ventas > 1000){
-                    System.out.println("Primeira necesidade.");
-                }
+            if(ventas <= 100){
+                System.out.println("Baixo.");
+            }else if(ventas <= 500){
+                System.out.println("Medio.");
+            }else if(ventas <= 1000){
+                System.out.println("Alto.");
             }else{
-                System.out.println("Tan mal va la empresa?");
+                System.out.println("Primeira necesidade.");
             }
         }catch(NumberFormatException e){
             System.out.println("Formato incorrecto.");
